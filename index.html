@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor Solution | Advice generator app</title>
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet preconnect" href="styles.css" />
+
+    <!-- External JavaScript -->
+    <script src="./index.js" defer></script>
+
+    <!-- Start of Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End of Font CDN -->
+  </head>
+  <body>
+    <main>
+      <div class="parent-container">
+        <div class="advice-container">
+          <div class="heading">
+            <h4>Advice #<span id="advice-id"></span></h4>
+          </div>
+          <div class="body">
+            <p id="advice"></p>
+            <img
+              src="./images/pattern-divider-mobile.svg"
+              alt="path divider mobile"
+              style="width: 100%"
+            />
+            <img
+              src="./images/pattern-divider-desktop.svg"
+              alt="path divider desktop"
+              style="width: 100%"
+            />
+          </div>
+          <button onclick="getData()">
+            <img src="./images/icon-dice.svg" alt="icon dice" />
+          </button>
+        </div>
+        <div class="attribution">
+          <p>
+            Challenge by:
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >.
+          </p>
+          <p>
+            Coded by:
+            <a href="https://github.com/olanrewaju-dev">Olanrewaju-dev</a>.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
